@@ -16,7 +16,10 @@ zuul:
       serviceId: UserAuthenticationService
     cart-service:
       path: /cart-service/**
-      serviceId: CartService  
+      serviceId: CartService
+    order-service:
+      path: /order-service/**
+      serviceId: orderService      
 
 
 eureka:
