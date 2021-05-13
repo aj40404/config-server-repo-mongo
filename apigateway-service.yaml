@@ -19,7 +19,10 @@ zuul:
       serviceId: CartService
     order-service:
       path: /order-service/**
-      serviceId: orderService      
+      serviceId: orderService
+    product-admin-service:
+      path: /product-admin-service/**
+      serviceId: productAdminService        
 
 
 eureka:
