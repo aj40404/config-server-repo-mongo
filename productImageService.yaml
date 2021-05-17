@@ -1,6 +1,9 @@
 server:
   port: ${IMAGE_PORT:9021}
 spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
   data:
     mongodb:
       database: ${IMAGE_DB:e_commerce_db}

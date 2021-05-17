@@ -22,7 +22,16 @@ zuul:
       serviceId: orderService
     product-admin-service:
       path: /product-admin-service/**
-      serviceId: productAdminService        
+      serviceId: productAdminService
+    product-service:
+      path: /product-service/**
+      serviceId: productService
+    inventory-service:
+      path: /inventory-service/**
+      serviceId: inventoryService
+    product-image-service:
+      path: /product-image-service/**
+      serviceId: productImageService              
 
 
 eureka:
