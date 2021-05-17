@@ -29,9 +29,9 @@ zuul:
     inventory-service:
       path: /inventory-service/**
       serviceId: inventoryService
-    product-image-service:
-      path: /product-image-service/**
-      serviceId: productImageService              
+    image-service:
+      path: /image-service/**
+      serviceId: imageService              
 
 
 eureka:
