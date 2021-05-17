@@ -3,7 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      database: ${PRODUCT_ADMIN_DB:books_dbnew}
+      database: ${PRODUCT_ADMIN_DB:e_commerce_db}
       port: ${MONGO_PORT:27017}
       host: ${MONGO_HOST:localhost}
 
