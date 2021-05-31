@@ -14,24 +14,7 @@ zuul:
     user-authentication-service:
       path: /user-authentication-service/**
       serviceId: UserAuthenticationService
-    cart-service:
-      path: /cart-service/**
-      serviceId: CartService
-    order-service:
-      path: /order-service/**
-      serviceId: orderService
-    product-admin-service:
-      path: /product-admin-service/**
-      serviceId: productAdminService
-    product-service:
-      path: /product-service/**
-      serviceId: productService
-    inventory-service:
-      path: /inventory-service/**
-      serviceId: inventoryService
-    image-service:
-      path: /image-service/**
-      serviceId: imageService              
+                 
 
 
 eureka:
