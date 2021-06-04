@@ -1,15 +1,11 @@
 server:
-  port: ${IMAGE_PORT:9021}
+  port: ${USER_SERVICE_PORT:9015}
 spring:
-  servlet:
-    multipart:
-      max-file-size: 5MB
   data:
     mongodb:
-      database: ${IMAGE_DB:e_commerce_db}
-      port: ${MONGO_PORT:27017}
-      host: ${MONGO_HOST:localhost}
-      auto-index-creation: true
+      database: ${USER_DB:e_commerce_db}
+      port: ${USER_PORT:27017}
+      host: ${USER_HOST:localhost}
 
 
 eureka:
