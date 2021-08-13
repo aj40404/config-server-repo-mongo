@@ -7,7 +7,7 @@ spring:
   data:
     mongodb:
       database: ${BOOK_DB:books_dbnew}
-      port: ${MONGO_PORT:27017}
+      port: ${MONGO_PORT:27019}
       host: ${MONGO_HOST:localhost}
       auto-index-creation: true    
 
