@@ -1,0 +1,21 @@
+server:
+  port: ${EMPLOYEE_SERVICE_PORT:8105}
+  
+spring: 
+  data:
+    mongodb:
+      database: ${EMPLOYEE_DB:employee_db}
+      port: ${MONGO_PORT:27017}
+      host: ${MONGO_HOST:localhost}
+      auto-index-creation: true    
+       
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"    
+        
+         
+    
+    
+  
